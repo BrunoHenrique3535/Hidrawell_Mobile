@@ -1,15 +1,21 @@
 import styled from 'styled-components'
 
 export const VideosContainer = styled.div`
-    min-height: 100vh;
+    height: 100vh;
+    
+    @media (max-width:768px){
+        height: 100%;
+        padding-bottom: 4rem;
+    }
     background-image: linear-gradient(180deg, rgb(5, 15, 45), rgb(6, 39, 120));
     div{
+        text-align: center;
         display: flex;
         justify-content: space-evenly;
         gap: 1rem;
         
         img{
-            height: 35rem;
+            height: 20rem;
         }
         div{
             display: flex;
@@ -25,13 +31,22 @@ export const VideosContainer = styled.div`
                 font-size: 1.25rem;
             }
         }
+        @media (max-width:768px){
+            flex-direction:column ;
+        }
     }
     section{
-        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 2rem;
         h1{
             font-size: 3rem;
             margin-bottom: 3rem;
-            margin-left: 1.5rem;
         }
+
+        
     }
+
+
 `

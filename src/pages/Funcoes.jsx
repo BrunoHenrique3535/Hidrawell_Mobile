@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import { FuncoesContainer, Usos } from "../styles/Funcoes.styles";
-import { Global } from "../styles/global";
+import { Global } from "../styles/Global";
 import Funcao1 from "/Funcao1.png"
 import Funcao2 from "/Funcao2.png"
 import Funcao3 from "/Funcao3.png"
@@ -10,8 +10,10 @@ import Funcao6 from "/Funcao6.png"
 
 export default function Funcoes() {
     return (
-      <FuncoesContainer>
-        <Header/>
+
+      <>
+      <Header/>
+       <FuncoesContainer>
         <h1>Funções da Garrafa</h1>
         <div id="cima">
           <Usos>
@@ -50,5 +52,7 @@ export default function Funcoes() {
         </div>
         <Global/>
       </FuncoesContainer>
+      </>
+     
     )
   }

@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-import { Global } from "../styles/global";
+import { Global } from "../styles/Global";
 import { MateriaisContainer, Pecas } from "../styles/Materiais.styles";
 import Pecas1 from "/Pecas1.png"
 import Pecas2 from "/Pecas2.png"
@@ -10,8 +10,9 @@ import Pecas6 from "/Pecas6.png"
 
 export default function Materiais() {
     return (
+        <>
+        <Header/>
         <MateriaisContainer>
-            <Header/>
             <h1>Materiais que serão utilizados:</h1>
             <div id="cima">
                 <Pecas>
@@ -50,5 +51,6 @@ export default function Materiais() {
             </div>
             <Global/>
         </MateriaisContainer>
+        </>
     )
   }

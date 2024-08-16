@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import { HomeContainer } from "../styles/Home.styles";
-import { Global } from "../styles/global";
+import { Global } from "../styles/Global";
 import { Link } from "react-router-dom"
 
 

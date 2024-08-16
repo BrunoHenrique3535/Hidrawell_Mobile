@@ -1,15 +1,16 @@
 import styled from 'styled-components'
 
-export const CriadoresContainer = styled.div`
-
-
-    div{
-        background-image: linear-gradient(180deg, rgb(5, 15, 45), rgb(6, 39, 120));
+export const CriadoresContainer = styled.div`    
+    background-image: linear-gradient(180deg, #050f2d, #062678);
+    > div  {
+        
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-bottom: 4rem;
-        
+        align-items: center;
+        margin-bottom: 3rem;
+
+
         h1{
             font-size: 3rem;
             text-transform: uppercase;
@@ -19,19 +20,18 @@ export const CriadoresContainer = styled.div`
             margin-bottom: 4rem;
         }
 
-        section{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            img{
-                width: 25rem;
-            }
+
+        @media (max-width: 768px) {
+            
+
         }
+        
     }
 
     #Ref{
-        background: #000000;
-        color: #ffffff;
+        padding-inline: 4rem;
+        background: #000;
+        color: #fff;
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -52,15 +52,13 @@ export const CriadoresContainer = styled.div`
         }
 
         p{
-            width: 75.5rem;
-            font-size: 1.625rem;
+            font-size: 1rem;
             font-family: monospace;
         }
 
         a{
-            font-size: 1.75rem;
+            font-size: 1rem;
             font-family: monospace;
-            width: 52rem;
         }
 
         a:hover{
@@ -75,9 +73,19 @@ export const CriadoresContainer = styled.div`
 `
 
 export const Membros = styled.div`
+    display: flex;
     align-items: center;
     gap: 2rem;
     
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 350px;
+        gap: 10px;
+    }
+    
+
     h2{
         color: #FFFFFF;
         font-family: "Inter", sans-serif;
@@ -87,11 +95,25 @@ export const Membros = styled.div`
 
     a{
         background: #FF0000;
-        width: 12rem;
         padding-block: 1rem;
         border-radius: 5px;
         text-transform: uppercase;
         text-align: center;
-        font-size: 1.125rem;
+        font-size: 1rem;
+        width: 100%;
     }
+
+    img {
+        width: 290px;
+        height: 270px;
+    }
+    
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+
+        
+    }
+
 `

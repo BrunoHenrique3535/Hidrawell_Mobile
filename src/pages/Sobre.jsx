@@ -1,12 +1,16 @@
 import Header from "../components/Header";
-import { Global } from "../styles/global";
+import { Global } from "../styles/Global";
 import { SobreContainer } from "../styles/Sobre.styles";
 import Garrafa from "/FotoGarrafa.png"
 
 export default function Sobre() {
   return (
-    <SobreContainer>
-        <Header/>
+
+
+    <>
+      <Global/>
+      <Header/>
+      <SobreContainer>
         <div>
           <section>
             <h1>Sobre a garrafa inteligente:</h1>
@@ -14,7 +18,8 @@ export default function Sobre() {
           </section>
           <img src={Garrafa} alt="" />
         </div>
-        <Global/>
     </SobreContainer>
+    </>
+    
   )
 }

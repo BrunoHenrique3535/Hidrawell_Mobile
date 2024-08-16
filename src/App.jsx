@@ -7,6 +7,7 @@ import Materiais from './pages/Materiais';
 import Criadores from './pages/Criadores';
 
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import { Global } from './styles/Global';
 
 
 
@@ -39,6 +40,7 @@ const rotas = createBrowserRouter([
 
 export default function () {
   return (
-    <RouterProvider router={rotas}/>
+      
+      <RouterProvider router={rotas}/>
   )
 }

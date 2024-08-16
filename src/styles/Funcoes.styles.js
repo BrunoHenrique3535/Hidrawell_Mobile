@@ -5,19 +5,31 @@ export const FuncoesContainer = styled.div`
     display: flex;
     flex-direction: column;
     padding-bottom: 4rem;
+    padding-inline: 4rem;
 
     h1{
         text-align: center;
         text-transform: uppercase;
         font-weight: bold;
-        font-size: 2.5rem;
+        font-size: 2rem;
         padding-top: 4rem;
     }
 
     #cima, #baixo{
-        display: flex;
-        justify-content: space-around;
-        padding-top: 5rem;
+            display: flex;
+            justify-content: space-around;
+            padding-top: 5rem;
+            gap: 8px;
+    }
+    
+    @media (max-width:768px){
+        #cima, #baixo{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-top: 5rem;
+            align-items: center;
+        }
     }
 `
 
@@ -29,7 +41,7 @@ export const Usos = styled.div`
     gap: 1.25rem;
 
     img{
-        width: 23rem;
+        width: 10rem;
     }
 
     h2{
@@ -39,6 +51,9 @@ export const Usos = styled.div`
 
     p{
         color: #FFFFFF;
-        font-size: 1.25rem;
+        font-size: 1rem;
+    }
+    @media(max-width:768px){
+        width: 15rem;
     }
 `

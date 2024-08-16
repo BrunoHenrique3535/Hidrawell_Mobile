@@ -1,20 +1,21 @@
 import styled from 'styled-components'
 
 export const SobreContainer = styled.div`
-    min-height: 100vh;
+    height: 100vh;
     background-image: linear-gradient(180deg, rgb(5, 15, 45), rgb(6, 39, 120));
-    div{
+    display: flex;
+    align-items: center;
+    padding-inline: 4rem;
+    div {
         display: flex;
-        flex-wrap: wrap;
-        margin-inline: 7rem;
         justify-content: space-between;
         align-items: center;
-        margin-top: 5rem;
+        gap: 20px;
+        
         img{
-            height: 38rem;
+            height: 25rem;
             border: solid 6px #ffffff;
             border-radius: 5px;
-            right: 5rem;
             margin-top: 2rem;
         }
         h1{
@@ -23,8 +24,15 @@ export const SobreContainer = styled.div`
         }
         p{
             color: #ffffff;
-            width: 45rem;
-            font-size: 1.75rem;
+            font-size: 1rem;
+        }
+
+        @media (max-width:768px){
+            flex-direction: column;
+            h1{
+            font-size: 2.5rem;
+            margin-bottom: 6rem;
+        }
         }
     }
 
