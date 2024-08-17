@@ -16,26 +16,25 @@ export const HomeContainer = styled.section`
         color: #0D99FF;
         text-align: center;
         margin-top: 3.5rem;
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
         font-size: 2.5rem;
     }
 
     p{
-        font-size: 2.5rem;
+        font-size: 2rem;
         text-align: center;
-        width: 87rem;
     }
 
     #mais{
         color: #000000;
         background: #ffffff;
-        border: solid 1px #000000;
         padding: 1rem;
         border-radius: 6px;
         position: fixed;
         bottom: 1.5rem;
         left: 50%;
         transform: translate(-50%, 0);
+        border: none;
     }
 
     #mais:hover{
@@ -43,5 +42,15 @@ export const HomeContainer = styled.section`
         background: #000000;
         text-decoration: underline;
         transition: all.5s;
+    }
+    @media (max-width:768px){
+        p {
+            font-size: 1.5rem;
+        }
+
+        #mais{
+            bottom: 5rem;
+            left: 50%;
+        }
     }
 `
