@@ -8,8 +8,8 @@ export default function Sobre() {
 
 
     <>
-      <Global/>
       <Header/>
+      <Global/>
       <SobreContainer>
         <div>
           <section>
