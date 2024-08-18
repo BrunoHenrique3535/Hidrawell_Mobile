@@ -12,13 +12,12 @@ export const FuncoesContainer = styled.div`
         text-transform: uppercase;
         font-weight: bold;
         font-size: 2rem;
-        padding-top: 4rem;
+        padding-block: 4rem;
     }
 
     #cima, #baixo{
             display: flex;
             justify-content: space-around;
-            padding-top: 5rem;
             gap: 8px;
     }
     
@@ -27,7 +26,6 @@ export const FuncoesContainer = styled.div`
             display: flex;
             flex-direction: column;
             justify-content: center;
-            padding-top: 5rem;
             align-items: center;
         }
     }
@@ -39,6 +37,7 @@ export const Usos = styled.div`
     flex-direction: column;
     align-items: center;
     gap: 1.25rem;
+    text-align: center;
 
     img{
         width: 10rem;

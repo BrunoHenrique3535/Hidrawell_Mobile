@@ -16,6 +16,12 @@ export const Global =  createGlobalStyle`
         font-weight: 400;
         color: #0D99FF;
     }
+
+    h2 {
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        color: #0D99FF;
+    }
     
     p{
         font-family: "M PLUS 1p", sans-serif;

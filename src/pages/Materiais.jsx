@@ -17,17 +17,17 @@ export default function Materiais() {
             <div id="cima">
                 <Pecas>
                     <img src={Pecas1} alt="" />
-                    <p> Sensor de Nível de Líquidos WS03 - R$ 92,90:</p>
+                    <h2> Sensor de Nível de Líquidos WS03 - R$ 92,90:</h2>
                     <p>Monitora o nível de água na garrafa, enviando dados ao Arduino</p>
                 </Pecas>
                 <Pecas>
                     <img src={Pecas2} alt="" />
-                    <p>HC-05 Bluetooth Module - R$ 29,30:</p>
+                    <h2>HC-05 Bluetooth Module - R$ 29,30:</h2>
                     <p>Permite a comunicação sem fio entre a garrafa e um smartphone</p>
                 </Pecas>
                 <Pecas>
                     <img src={Pecas3} alt="" />
-                    <p>LiPo Battery 3.7V 1000mAh - R$64,90:</p>
+                    <h2>LiPo Battery 3.7V 1000mAh - R$64,90:</h2>
                     <p>Fornece energia para o Arduino e os componentes conectado</p>
                 </Pecas>
             </div>
@@ -35,17 +35,17 @@ export default function Materiais() {
             <div id="baixo">
                 <Pecas>
                     <img src={Pecas4} alt="" />
-                    <p>Arduino Nano - R$ 100,00:</p>
+                    <h2>Arduino Nano - R$ 100,00:</h2>
                     <p>Controlador principal que processa os dados dos sensores</p>
                 </Pecas>
                 <Pecas>
                     <img src={Pecas5} alt="" />
-                    <p>Módulo Display de 7 segmentos TM1637 - R$11,30:</p>
+                    <h2>Módulo Display de 7 segmentos TM1637 - R$11,30:</h2>
                     <p>Exibe informações importantes, como o nível de água e lembretes, diretamente na garrafa</p>
                 </Pecas>
                 <Pecas>
                     <img src={Pecas6} alt="" />
-                    <p>Sensor de Fluxo de Água - R$ 50,00:</p>
+                    <h2>Sensor de Fluxo de Água - R$ 50,00:</h2>
                     <p>Monitorar a quantidade de água que passa pelo sensor</p>
                 </Pecas>
             </div>

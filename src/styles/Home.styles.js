@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const HomeContainer = styled.section`
-    min-height: 100vh;
+    height: calc(100vh - 6rem);
     background-image: url('/background-home.png');
     background-position: center;
     background-repeat: space;
@@ -10,47 +10,48 @@ export const HomeContainer = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
+    text-align: center;
     h1{
         color: #0D99FF;
-        text-align: center;
         margin-top: 3.5rem;
         margin-bottom: 2rem;
         font-size: 2.5rem;
     }
-
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 700px;
+        gap: 20px;
+    }
     p{
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-align: center;
+
     }
 
     #mais{
-        color: #000000;
-        background: #ffffff;
+        color: #fff;
+        background: #000;
         padding: 1rem;
         border-radius: 6px;
-        position: fixed;
-        bottom: 1.5rem;
-        left: 50%;
-        transform: translate(-50%, 0);
         border: none;
     }
 
     #mais:hover{
-        color: #ffffff;
-        background: #000000;
+        color: #000;
+        background: #f1f1f1;
         text-decoration: underline;
         transition: all.5s;
     }
     @media (max-width:768px){
         p {
-            font-size: 1.5rem;
+            font-size: 1rem;
         }
 
         #mais{
             bottom: 5rem;
-            left: 50%;
         }
     }
 `

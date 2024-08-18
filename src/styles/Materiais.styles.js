@@ -7,30 +7,39 @@ export const MateriaisContainer = styled.div`
     padding-inline: 4rem;
     justify-content: center;
     align-items: center;
+    padding-bottom: 7rem;
 
-    @media (max-width:768px){
 
-    }
 
     h1{
         text-align: center;
         text-transform: uppercase;
         font-weight: bold;
         font-size: 2.5rem;
-        padding-top: 4rem;
+        padding-block: 4rem;
+    }
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 1.2rem;
     }
 
     #cima, #baixo{
         display: flex;
         justify-content: space-around;
-        padding-top: 5rem;
     }
     @media (max-width:768px){
         #cima, #baixo{
             display: flex;
             flex-direction: column;
             justify-content: space-around;
+            gap: 8px;
         }
+        h2 {
+            font-size: 1rem;
+        }
+        
     }
 `
 
@@ -39,8 +48,9 @@ export const Pecas = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-
+    justify-content: space-between;
+    padding:10px;
+    gap: 12px;
     img{
         width: 15rem;
         background: #FFF;
@@ -57,6 +67,10 @@ export const Pecas = styled.div`
 
         img {
             width: 10rem;
+        }
+
+        p{
+            font-size: 0.8rem;
         }
     }
 `
