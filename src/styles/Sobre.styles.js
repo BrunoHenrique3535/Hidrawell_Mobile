@@ -1,11 +1,23 @@
 import styled from 'styled-components'
 
 export const SobreContainer = styled.div`
-    height: 100vh;
+    height: 90vh;
     background-image: linear-gradient(180deg, rgb(5, 15, 45), rgb(6, 39, 120));
     display: flex;
     align-items: center;
     padding-inline: 4rem;
+
+    div{
+        margin-top: -15rem;
+    }
+
+    p{
+        margin-right: 40rem;
+    }
+
+    img{
+        margin-right: 20rem;
+    }
     
     @media (max-width: 768px) {
         padding: 2rem; // Menos padding para telas menores

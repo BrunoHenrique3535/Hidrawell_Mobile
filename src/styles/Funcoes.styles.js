@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const FuncoesContainer = styled.div`
     background-image: linear-gradient(180deg, rgb(5, 15, 45), rgb(6, 39, 120));
+    height: 54rem;
     display: flex;
     flex-direction: column;
     padding-bottom: 4rem;

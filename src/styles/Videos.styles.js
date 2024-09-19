@@ -12,7 +12,7 @@ export const VideosContainer = styled.div`
         text-align: center;
         display: flex;
         justify-content: space-evenly;
-        gap: 1rem;
+        gap: 5rem;
         
         img{
             height: 20rem;
