@@ -12,7 +12,10 @@ export const SobreContainer = styled.div`
     }
 
     p{
-        margin-right: 40rem;
+        background: #0D99FF;
+        border-radius: 10px;
+        padding: 15px;
+        margin-right: 10rem;
     }
 
     img{
