@@ -6,34 +6,52 @@ export const SobreContainer = styled.div`
     display: flex;
     align-items: center;
     padding-inline: 4rem;
+    
+    @media (max-width: 768px) {
+        padding: 2rem; // Menos padding para telas menores
+        height: auto; // Permite que a altura se ajuste ao conteúdo
+    }
+
     div {
         display: flex;
         justify-content: space-between;
         align-items: center;
         gap: 20px;
         
-        img{
+        @media (max-width: 768px) {
+            flex-direction: column; // Coloca os elementos em coluna no mobile
+            align-items: flex-start; // Alinha o conteúdo à esquerda
+        }
+        
+        img {
             height: 25rem;
             border: solid 6px #ffffff;
             border-radius: 5px;
             margin-top: 2rem;
+
+            @media (max-width: 768px) {
+                height: 20rem; // Ajusta a altura da imagem no mobile
+                margin-top: 1rem; // Diminui a margem no mobile
+            }
         }
-        h1{
+
+        h1 {
             font-size: 3rem;
             margin-bottom: 6rem;
+
+            @media (max-width: 768px) {
+                font-size: 2.5rem; // Reduz o tamanho da fonte no mobile
+                margin-bottom: 2rem; // Ajusta a margem inferior no mobile
+            }
         }
-        p{
+
+        p {
             color: #ffffff;
             font-size: 1rem;
-        }
 
-        @media (max-width:768px){
-            flex-direction: column;
-            h1{
-            font-size: 2.5rem;
-            margin-bottom: 6rem;
-        }
+            @media (max-width: 768px) {
+                font-size: 0.9rem; // Diminui o tamanho da fonte para melhor legibilidade
+            }
         }
     }
-
 `
