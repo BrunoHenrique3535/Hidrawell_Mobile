@@ -13,7 +13,7 @@ export default function Funcoes() {
 
       <>
       <Header/>
-       <FuncoesContainer>
+      <FuncoesContainer>
         <h1>Funções da Garrafa</h1>
         <div id="cima">
           <Usos>

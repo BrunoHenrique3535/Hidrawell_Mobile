@@ -40,7 +40,6 @@ const rotas = createBrowserRouter([
 
 export default function () {
   return (
-      
-      <RouterProvider router={rotas}/>
+    <RouterProvider router={rotas}/>
   )
 }

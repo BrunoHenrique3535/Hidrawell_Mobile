@@ -18,7 +18,7 @@ export default function Sobre() {
           </section>
           <img src={Garrafa} alt="" />
         </div>
-    </SobreContainer>
+      </SobreContainer>
     </>
     
   )

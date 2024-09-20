@@ -6,6 +6,12 @@ export const HeaderContent = styled.header`
     width: 100%;
     display: flex;
     align-items: center;
+    padding-inline: 10px;
+    justify-content: space-between;
+
+    .menu {
+        display: none;
+    }
     
     img{
         width: 4.5rem;
@@ -17,8 +23,9 @@ export const HeaderContent = styled.header`
         img{
             width: 2.5rem;
         }
-
-
+        .menu {
+            display: flex;
+        }
     }
 `
 
@@ -39,6 +46,7 @@ export const Links = styled.nav `
 
 
     @media (max-width: 450px) {
+        display: none;        
         a {
             font-size: 0.8rem;
         }
@@ -46,4 +54,18 @@ export const Links = styled.nav `
         flex-wrap: wrap;
         gap: 20px;
     }
+`
+
+
+export const LinksMobile = styled.div`
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #0D99FF;
+    gap: 8px;
+    position: absolute;
+    right: 0px;
+    top: 6rem;
+
 `
