@@ -6,6 +6,7 @@ export const FuncoesContainer = styled.div`
     flex-direction: column;
     padding-bottom: 4rem;
     padding-inline: 4rem;
+    height: 55rem;
 
     h1{
         text-align: center;
@@ -22,6 +23,8 @@ export const FuncoesContainer = styled.div`
     }
     
     @media (max-width:768px){
+        height: 155rem;
+
         #cima, #baixo{
             display: flex;
             flex-direction: column;
