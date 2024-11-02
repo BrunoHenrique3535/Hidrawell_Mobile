@@ -17,12 +17,12 @@ export default function Criadores() {
           <h1>Criadores:</h1>
             <Membros>
               <div>
-                <img src={Bruno} alt="" />
+                <img src="https://media.licdn.com/dms/image/v2/D5603AQGNZkwhw5ekPg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1710375769555?e=1735776000&v=beta&t=xOYCz5un7-i-CM_E0h_uu2vsf5BscYzlZgUayiXxmEc" alt="" />
                 <h2>Bruno Henrique</h2>
                 <a href="https://www.instagram.com/brunin.freitas_?igsh=MXhiemQwbWMwb2txeQ==" target="_blank">Instagram</a>
               </div>
               <div>
-                <img src={Renan} alt="" />
+                <img src="https://media.licdn.com/dms/image/v2/D4D03AQFE2D0rwAjHdw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711071664945?e=1735776000&v=beta&t=j8uIuZMAM22PaqcgzIB2dYUP0JGCOU89OT5zxeK6Qyo" alt="" />
                 <h2>Renan Nascimento</h2>
                 <a href="https://www.instagram.com/reoliveira06?igsh=a3N1ajV3eGlmcHYz" target="_blank">Instagram</a>
               </div>

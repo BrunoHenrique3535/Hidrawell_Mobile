@@ -16,7 +16,11 @@ export const SobreContainer = styled.div`
         justify-content: space-between;
         align-items: center;
         gap: 20px;
-        
+        section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
         section p{
             background: #0D99FF;
             border-radius: 15px;
@@ -31,7 +35,8 @@ export const SobreContainer = styled.div`
         }
         h1{
             font-size: 3rem;
-            margin-bottom: 6rem;
+            margin-bottom: 5rem;
+            
         }
         p{
             color: #ffffff;
@@ -40,10 +45,19 @@ export const SobreContainer = styled.div`
 
         @media (max-width:768px){
             flex-direction: column;
-            h1{
-            font-size: 2.5rem;
-            margin-bottom: 6rem;
-        }
+            align-items: center;
+            justify-content: center;
+            h1 {
+                font-size: 2.1rem;
+                margin-bottom: 6rem;
+                margin-top: 5rem;
+            }
+            section {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 4rem;
+            }
         }
     }
 

@@ -15,7 +15,9 @@ export const FuncoesContainer = styled.div`
         font-size: 2rem;
         padding-block: 4rem;
     }
-
+    #cima {
+        margin-bottom: 1rem;
+    }
     #cima, #baixo{
             display: flex;
             justify-content: space-around;
@@ -49,11 +51,12 @@ export const Usos = styled.div`
     h2{
         color: #0D99FF;
         font-family: "M PLUS 1p", sans-serif;
+        font-size: 1.1rem;
     }
 
     p{
         color: #FFFFFF;
-        font-size: 1rem;
+        font-size: .8rem;
     }
     @media(max-width:768px){
         width: 15rem;
