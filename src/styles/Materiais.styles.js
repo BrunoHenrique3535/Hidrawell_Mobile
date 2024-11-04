@@ -29,6 +29,11 @@ export const MateriaisContainer = styled.div`
         display: flex;
         justify-content: space-around;
     }
+
+    #baixo{
+        flex-wrap: wrap;
+    }
+
     @media (max-width:768px){
         #cima, #baixo{
             display: flex;
@@ -63,7 +68,7 @@ export const Pecas = styled.div`
         text-align: center;
     }
     @media (max-width:768px){
-        width: 10rem;
+        width: 100%;
 
         img {
             width: 10rem;

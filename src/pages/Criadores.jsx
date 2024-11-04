@@ -3,8 +3,9 @@ import { CriadoresContainer, Membros } from "../styles/Criadores.styles";
 import { Global } from "../styles/Global";
 import Bruno from "/Bruno.png"
 import Renan from "/Renan.png"
-import Nycollas from "/Nycollas.png"
+import Nycollas from "/nycollas.jpg"
 import Logo from "/LogoHidra.jpeg"
+import { Instagram } from "lucide-react";
 
 export default function Criadores() {
     return (
@@ -19,17 +20,26 @@ export default function Criadores() {
               <div>
                 <img src="https://media.licdn.com/dms/image/v2/D5603AQGNZkwhw5ekPg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1710375769555?e=1735776000&v=beta&t=xOYCz5un7-i-CM_E0h_uu2vsf5BscYzlZgUayiXxmEc" alt="" />
                 <h2>Bruno Henrique</h2>
-                <a href="https://www.instagram.com/brunin.freitas_?igsh=MXhiemQwbWMwb2txeQ==" target="_blank">Instagram</a>
+                <a href="https://www.instagram.com/brunin.freitas_?igsh=MXhiemQwbWMwb2txeQ==" target="_blank"> 
+                
+                <Instagram/>
+                </a>
               </div>
               <div>
                 <img src="https://media.licdn.com/dms/image/v2/D4D03AQFE2D0rwAjHdw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711071664945?e=1735776000&v=beta&t=j8uIuZMAM22PaqcgzIB2dYUP0JGCOU89OT5zxeK6Qyo" alt="" />
                 <h2>Renan Nascimento</h2>
-                <a href="https://www.instagram.com/reoliveira06?igsh=a3N1ajV3eGlmcHYz" target="_blank">Instagram</a>
+                <a href="https://www.instagram.com/reoliveira06?igsh=a3N1ajV3eGlmcHYz" target="_blank"> 
+                
+                <Instagram/>
+                </a>
               </div>
               <div>
                 <img src={Nycollas} alt="" />
                 <h2>Nycollas Paulino</h2>
-                <a href="https://www.instagram.com/nycollas_cruz_?igsh=MXEwZTR0MGFlbGFkaQ==" target="_blank">Instagram</a>
+                <a href="https://www.instagram.com/nycollas_cruz_?igsh=MXEwZTR0MGFlbGFkaQ==" target="_blank"> 
+                
+                <Instagram/>
+                </a>
               </div>
             </Membros>
         </div>

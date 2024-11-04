@@ -19,7 +19,7 @@ export const HeaderContent = styled.header`
         margin-left: .5rem;
         border: solid 4px #ffffff;
     }
-    @media (max-width: 450px) {
+    @media (max-width: 600px) {
         img{
             width: 2.5rem;
         }
@@ -45,7 +45,7 @@ export const Links = styled.nav `
     }
 
 
-    @media (max-width: 450px) {
+    @media (max-width: 600px) {
         display: none;        
         a {
             font-size: 0.8rem;
