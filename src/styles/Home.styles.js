@@ -18,6 +18,7 @@ export const HomeContainer = styled.section`
         font-size: 2.5rem;
     }
     div {
+        padding-top: 7rem;
         display: flex;
         flex-direction: column;
         justify-content: center;

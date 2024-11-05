@@ -16,12 +16,13 @@ export const SobreContainer = styled.div`
         justify-content: space-between;
         align-items: center;
         gap: 20px;
-        section {
+        flex-direction: column;
+    section {
             display: flex;
-            flex-direction: column;
+            
             align-items: center;
         }
-        section p{
+    section p{
             background: #0D99FF;
             border-radius: 15px;
             padding: 8px;
@@ -34,6 +35,11 @@ export const SobreContainer = styled.div`
             margin-top: 2rem;
         }
         h1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 2rem;
+            color: #ffffff;
             font-size: 3rem;
             margin-bottom: 5rem;
             
