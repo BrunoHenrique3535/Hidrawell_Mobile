@@ -2,6 +2,10 @@ import styled from 'styled-components'
 
 export const VideosContainer = styled.div`
     height: 100vh;
+    iframe{
+        width: 500px;
+        height: 400px;
+    }
     
     @media (max-width:768px){
         height: 100%;
