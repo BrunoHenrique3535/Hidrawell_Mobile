@@ -5,6 +5,8 @@ import Videos from './pages/Videos';
 import Funcoes from './pages/Funcoes';
 import Materiais from './pages/Materiais';
 import Criadores from './pages/Criadores';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import { Global } from './styles/Global';
