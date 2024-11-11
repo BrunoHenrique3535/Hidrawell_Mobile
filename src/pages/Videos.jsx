@@ -14,26 +14,24 @@ export default function Videos() {
           <h1>Vídeos:</h1>
           <div>
             <div>
+              <h2>
+                projeto
+              </h2>
               <iframe width="560" height="315" src="https://www.youtube.com/embed/K_2tFTAojJU?si=tyDTWFDd1mVdHipr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              <a href="https://www.youtube.com/watch?v=7yP7SguUnss" target="_blank">
-                Play
+              
 
-              </a>
+              
             </div>
+
             <div>
-              <img src={Capa2} alt="" />
-              <a href="https://www.youtube.com/watch?v=wjotLW5L4BE" target="_blank">
-                Play
+              <h2>
+                Jogo
+              </h2>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/K_2tFTAojJU?si=tyDTWFDd1mVdHipr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-              </a>
+              
             </div>
-            <div>
-              <img src={Capa3} alt="" />
-              <a href="https://www.youtube.com/watch?v=GAx-QUCdKHM" target="_blank">
-                Play
-
-              </a>
-            </div>
+            
           </div>
         </section>
 

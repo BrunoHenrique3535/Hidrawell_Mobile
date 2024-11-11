@@ -7,14 +7,14 @@ export const FuncoesContainer = styled.div`
   background-image: linear-gradient(180deg, rgb(5, 15, 45), rgb(6, 39, 120));
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;  // Garante que o conteúdo fique mais próximo do topo
   
-  padding-inline: 400px;
-  height: 55rem;
-  justify-content: center;  // Garante que o conteúdo fique centrado verticalmente
+  height: 55rem;  // Mantém o tamanho geral, pode ser ajustado conforme necessidade
+  padding-top: 2rem;  // Um pequeno espaço no topo, se necessário
 
   .Carrossel {
     max-width: 600px;
-    margin: 0 auto;
+    margin-top: 0;  // Remover ou reduzir o margin-top para aproximar do topo
     padding: 20px 0;
   }
 
@@ -45,21 +45,21 @@ export const FuncoesContainer = styled.div`
   }
 
   @media (max-width: 768px) {
-    height: 155rem;
+    height: auto;  // Ajuste a altura para telas menores
     padding-inline: 2rem; // Ajuste para telas menores
+    padding-top: 0; // Remover padding-top para telas menores, se necessário
   }
 `;
 
 // Estilo para cada item do carrossel
 export const Usos = styled.div`
-  width: 100%;
-  height: 100%;         // Garantindo que o slide ocupe 100% da altura
-  display: flex;        // Flexbox para centralizar os itens
+  display: flex;
   flex-direction: column;
-  align-items: center;  // Centraliza horizontalmente
-  justify-content: center;  // Centraliza verticalmente
+  align-items: center;
+  justify-content: center;
   gap: 1.25rem;
   text-align: center;
+  margin-top: 2rem;
 
   img {
     display: block;

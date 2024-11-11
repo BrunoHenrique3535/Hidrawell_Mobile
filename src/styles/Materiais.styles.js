@@ -17,6 +17,13 @@ export const MateriaisContainer = styled.div`
         font-weight: bold;
         font-size: 2.5rem;
         padding-block: 4rem;
+        color: #DFE6E9;
+    }
+
+    @media (max-width:768px){
+        h1{
+            font-size: 2rem;
+        }
     }
     h2 {
         text-align: center;
@@ -63,7 +70,7 @@ export const Pecas = styled.div`
     }
 
     p{
-        color: #FFFFFF;
+        color: #DFE6E9;
         font-size: 1rem;
         text-align: center;
     }

@@ -18,23 +18,20 @@ export const VideosContainer = styled.div`
         justify-content: space-evenly;
         gap: 5rem;
         
-        img{
-            height: 20rem;
-        }
+       
         div{
             display: flex;
             flex-direction: column;
             align-items: center;
 
-            a{
-                background: #FF0000;
-                padding-inline: 2.5rem;
-                padding-block: .75rem;
-                border-radius: 5px;
-                text-transform: uppercase;
-                font-size: 1.25rem;
-            }
+           
         }
+        h2{
+            color: white;
+            font-size: 3rem;
+            
+        }
+
         @media (max-width:768px){
             flex-direction:column ;
         }
