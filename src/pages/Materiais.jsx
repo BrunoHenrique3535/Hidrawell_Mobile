@@ -13,7 +13,7 @@ export default function Materiais() {
         <>
         <Header/>
         <MateriaisContainer>
-            <h1>Materiais que serão utilizados:</h1>
+            <h1>Materiais utilizados:</h1>
             <div id="cima">
                 <Pecas>
                     <img src="https://images.tcdn.com.br/img/img_prod/751846/sensor_de_nivel_de_liquidos_sem_contato_ws03_3733_1_a51345a02c9ebbdcaa131c08f37bd145_20240418034033.jpg" alt="" />
