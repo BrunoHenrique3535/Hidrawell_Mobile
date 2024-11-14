@@ -1,21 +1,19 @@
 import styled from 'styled-components';
 
 export const MateriaisContainer = styled.div`
-    background-image: linear-gradient(180deg, rgb(5, 15, 45), rgb(6, 39, 120));
+    background-image: linear-gradient(180deg, #001f3f, #0074D9);
+    padding: 5rem 2rem;
     display: flex;
     flex-direction: column;
-    padding: 4rem 2rem;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
-    padding-bottom: 7rem;
+    gap: 4rem;
 
     h1 {
         text-align: center;
-        text-transform: uppercase;
-        font-weight: 700;
         font-size: 2.5rem;
-        color: #DFE6E9;
+        color: #FFFFFF;
+        text-shadow: 2px 2px #000;
         margin-bottom: 2rem;
     }
 
@@ -29,14 +27,18 @@ export const MateriaisContainer = styled.div`
 
 export const PecasGrid = styled.div`
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(2, 1fr); // Define duas colunas para os cards
     gap: 2rem;
     width: 100%;
     max-width: 1200px;
 
+    // Estilo para a última linha ocupar a largura total
+    & > :nth-child(7) {
+        grid-column: span 2;
+    }
+
     @media (max-width: 768px) {
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
+        grid-template-columns: 1fr; // Em telas menores, exibe uma coluna
     }
 `;
 
@@ -55,12 +57,11 @@ export const Pecas = styled.div`
     }
 
     img {
-        width: 12rem;
+        width: 10rem;
         height: auto;
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         margin-bottom: 1rem;
-        background-color: #FFF;
     }
 
     h2 {
@@ -79,7 +80,7 @@ export const Pecas = styled.div`
 
     @media (max-width: 768px) {
         img {
-            width: 10rem;
+            width: 8rem;
         }
 
         h2 {
