@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 // Estilo para o container principal
 export const FuncoesContainer = styled.div`
+  
   background-color: #4169E1;
   display: flex;
   flex-direction: column;

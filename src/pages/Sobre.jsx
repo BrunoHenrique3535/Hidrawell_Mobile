@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import { Global } from "../styles/Global";
 import { SobreContainer } from "../styles/Sobre.styles";
-import Garrafa from "/FotoGarrafa.png"
+import Garrafa from "/garrafa-real.jpeg"
 
 export default function Sobre() {
   return (

@@ -13,7 +13,7 @@ export const SobreContainer = styled.div`
     background-image: linear-gradient(180deg, rgb(5, 15, 45), rgb(6, 39, 120));
     display: flex;
     flex-direction: column;
-  
+    
   padding-inline: 400px;
   height: 55rem;
   justify-content: center;  // Garante que o conteúdo fique centrado verticalmente
@@ -50,7 +50,7 @@ export const SobreContainer = styled.div`
     }
 
     img {
-        max-width: 100%;
+        max-width: 400px;
         height: auto;
         border-radius: 10px;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
