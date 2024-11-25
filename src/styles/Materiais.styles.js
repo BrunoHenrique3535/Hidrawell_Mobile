@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+
 export const MateriaisContainer = styled.div`
     background-image: linear-gradient(180deg, #001f3f, #0074D9);
     padding: 5rem 2rem;

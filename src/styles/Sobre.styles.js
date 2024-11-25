@@ -107,6 +107,10 @@ export const SobreContainer = styled.div`
             max-width: 90%;
             height: auto;
         }
+
+        .p {
+            font-size: 0.5rem;
+        }
     }
 `;
 

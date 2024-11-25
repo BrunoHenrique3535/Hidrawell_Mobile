@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 // Estilo para o container principal
 export const FuncoesContainer = styled.div`
-  background-image: linear-gradient(180deg, rgb(5, 15, 45), rgb(6, 39, 120));
+  background-color: #4169E1;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -15,17 +15,7 @@ export const FuncoesContainer = styled.div`
   position: relative;
 
   // Animação de fundo sutil
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: radial-gradient(circle, rgba(255,255,255,0.1) 10%, transparent 20%);
-    animation: floatBg 10s linear infinite;
-    z-index: 0;
-  }
+
 
   .Carrossel {
     max-width: 600px;
@@ -76,9 +66,10 @@ export const FuncoesContainer = styled.div`
   }
 
   @media (max-width: 768px) {
-    height: auto;
+    height: 50rem;
     padding-inline: 2rem;
     padding-top: 0;
+    margin-right: 0rem
   }
 `;
 
@@ -97,6 +88,8 @@ export const Usos = styled.div`
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s, box-shadow 0.3s;
   z-index: 1;
+ 
+
 
   &:hover {
     transform: translateY(-5px);
@@ -124,6 +117,6 @@ export const Usos = styled.div`
   }
 
   @media (max-width: 768px) {
-    width: 90%;
+    width: 100px;
   }
 `;
